@@ -235,7 +235,7 @@ def shell_thread(channel, client_ip, username):
         # Main shell loop
         while True:
             # Send prompt with color
-            prompt = f'\x1b[01;32m{username}@honeypot\x1b[00m:\x1b[01;34m~$\x1b[00m '
+            prompt = f'\x1b[01;32m{username}@kali\x1b[00m:\x1b[01;34m~$\x1b[00m '
             channel.send(prompt)
             
             # Read command
